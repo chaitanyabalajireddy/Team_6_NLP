@@ -20,6 +20,14 @@ Developing an effective system for hate speech detection and categorization in H
 
 ![image](https://github.com/chaitanyabalajireddy/Team_6_NLP/assets/91625648/6e3f9247-34fb-4800-88eb-097deac67f42)
 
+#### Growing our Lexicon
+- Extracting synonym sets (SYNSET) from 'Synset.txt' to expand the lexicon.
+- Utilizing the Stanza library for Hindi NLP, including tokenization and part-of-speech tagging.
+- Identifying verbs from the processed dataset for analysis.
+- Categorizing strongly and weakly negative words from the SUBJCLUE lexicon.
+- Developing a function (Getsynset) to retrieve synonym sets and enrich the lexicon.
+- Adding verbs from predefined lists and SYNSET to expand the lexicon.
+- Compiling the expanded lexicon for hate speech classification.
 
 
 

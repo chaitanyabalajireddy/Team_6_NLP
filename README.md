@@ -1,4 +1,4 @@
-#  Classifying Social Media Texts into MULTIPLE Hate-BASED Categories for Indian languages 
+#  Classifying Social Media Texts into Multiple Hate-Based Categories for Indian languages 
 Team_6_NLP
 
 

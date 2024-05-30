@@ -1,5 +1,6 @@
-# Team_6_NLP
-Classifying Social Media Texts into MULTIPLE Hate-BASED Categories for Indian languages
+#  Classifying Social Media Texts into MULTIPLE Hate-BASED Categories for Indian languages 
+Team_6_NLP
+
 
 ## Problem Statement 
 Developing an effective system for hate speech detection and categorization in Hindi by leveraging Hindi WordNet for initial positive and negative word scores, and subsequently expanding the lexicon using Sysnet. This approach addresses the challenge of limited sentiment analysis tools tailored for Hindi, ensuring a more comprehensive understanding of linguistic nuances and cultural contexts.

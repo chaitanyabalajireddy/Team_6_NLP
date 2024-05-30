@@ -29,12 +29,12 @@ Developing an effective system for hate speech detection and categorization in H
 - Adding verbs from predefined lists and SYNSET to expand the lexicon.
 - Compiling the expanded lexicon for hate speech classification.
 
-####Benefits of Using SYNSET
+#### Benefits of Using SYNSET
 -	Comprehensive Coverage: SYNSET ensures that the lexicon covers a broad spectrum of words with similar meanings, making the detection process more robust.
 - Contextual Understanding: By including synonyms, the model gains a better understanding of the context in which certain words are used, improving the accuracy of hate speech detection.
 - Adaptive Lexicon: The lexicon becomes adaptive and dynamic, capable of evolving as new synonyms and expressions of hate speech emerge over time.
 
-####Theme-Based Nouns
+#### Theme-Based Nouns
 To accurately detect hate speech, it is essential to identify and analyze not only verbs and adjectives but also the nouns that often appear in hateful contexts. This step involves a detailed examination of noun phrases (NPs) within the corpus to pinpoint those frequently used in hateful tweets. By doing so, we can create a targeted list of nouns that enhance the precision of our hate speech detection model.
 
 Final Testing
@@ -54,6 +54,12 @@ As you can see, the hate-verbs alone do not make too much of a difference to the
 ![image](https://github.com/chaitanyabalajireddy/Team_6_NLP/assets/91625648/e0429dcd-bc18-4ae3-9cbe-4f98f94d1f08)
 
 Clearly, using subjectivity clues makes a very significant improvement to the accuracy of our hate-speech detector (nearly 7% increase in the F-score), which shows the importance of checking for contextual nouns while searching for and detecting hate speech. Another noteworthy factor is how the Recall is much higher than the precision; much higher, in fact, than the Recall value of the original project we referred to even though the precision we get is relatively lower. We argue this is due to our algorithm being efficient with ensuring that the hate-speeches are tagged correctly, as are the innocuous tweets. Thus, it leaves few false negatives (i.e. misses) behind. There are, however, relatively more false positives which takes away from precision. We argue that this is caused by our objective criterion (as described above) not being particularly objective at separating weak hate from strong hate because of the misalignment between criteria used by the corpus to tag hate speeches, and the criteria we ourselves use to segregate them. However,our algorithm compares favourably to the original in terms of segregating non-hate tweets from hateful tweets (about 66% precision in segregating non-hate) because of the criteria being more objective.
+
+![image](https://github.com/chaitanyabalajireddy/Team_6_NLP/assets/91625648/cc296eff-600a-429b-ba7d-d202cb70a59c)
+
+#### Conclusion
+The detection of hate speech in widely spoken languages like Hindi is increasingly important in today's digital era. Our model employs a rule-based approach to identify lexical patterns, allowing us to detect and quantify hate speech with reasonable precision. A key component of our algorithm is the analysis of subjectivity, which significantly enhances the accuracy of hate speech detection. Additionally, we categorize the detected hate speech to provide a more detailed understanding of the content, which helps prioritize our actions if needed.
+
 
 
 

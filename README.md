@@ -9,7 +9,7 @@ Developing an effective system for hate speech detection and categorization in H
 - Building a Hate Speech Lexicon: The algorithm involves constructing a lexicon of negative words and hate verbs to accurately identify hate speech, enhancing the precision of detection.
 - Identifying Theme-Based Nouns: The inclusion of theme-based nouns ensures that hate speech is contextually relevant, capturing politically significant words and other relevant nouns.
 
-#### Subjective Analysis
+### Subjective Analysis
 - Subjectivity analysis simplifies the corpus by focusing on subjective tweets, which are more likely to contain hate speech, rather than objective ones.
 - We utilize Hindi WordNet to assign positivity and negativity scores to words in the dataset.
 - Using the SUBJCLUE lexicon, we match each key to its appearance in the dataset and assign corresponding positive and negative scores.
@@ -20,7 +20,7 @@ Developing an effective system for hate speech detection and categorization in H
 
 ![image](https://github.com/chaitanyabalajireddy/Team_6_NLP/assets/91625648/6e3f9247-34fb-4800-88eb-097deac67f42)
 
-#### Growing our Lexicon
+### Growing our Lexicon
 - Extracting synonym sets (SYNSET) from 'Synset.txt' to expand the lexicon.
 - Utilizing the Stanza library for Hindi NLP, including tokenization and part-of-speech tagging.
 - Identifying verbs from the processed dataset for analysis.
@@ -29,7 +29,7 @@ Developing an effective system for hate speech detection and categorization in H
 - Adding verbs from predefined lists and SYNSET to expand the lexicon.
 - Compiling the expanded lexicon for hate speech classification.
 
-#### Benefits of Using SYNSET
+### Benefits of Using SYNSET
 -	Comprehensive Coverage: SYNSET ensures that the lexicon covers a broad spectrum of words with similar meanings, making the detection process more robust.
 - Contextual Understanding: By including synonyms, the model gains a better understanding of the context in which certain words are used, improving the accuracy of hate speech detection.
 - Adaptive Lexicon: The lexicon becomes adaptive and dynamic, capable of evolving as new synonyms and expressions of hate speech emerge over time.
@@ -37,7 +37,7 @@ Developing an effective system for hate speech detection and categorization in H
 #### Theme-Based Nouns
 To accurately detect hate speech, it is essential to identify and analyze not only verbs and adjectives but also the nouns that often appear in hateful contexts. This step involves a detailed examination of noun phrases (NPs) within the corpus to pinpoint those frequently used in hateful tweets. By doing so, we can create a targeted list of nouns that enhance the precision of our hate speech detection model.
 
-Final Testing
+## Final Testing
 
 The lexicons are tested on the corpus to evaluate their impact on hate speech detection accuracy. The algorithm’s components are tested individually to assess each lexicon’s contribution. The following criteria are used to classify tweets:
 
@@ -57,7 +57,7 @@ Clearly, using subjectivity clues makes a very significant improvement to the ac
 
 ![image](https://github.com/chaitanyabalajireddy/Team_6_NLP/assets/91625648/cc296eff-600a-429b-ba7d-d202cb70a59c)
 
-#### Conclusion
+## Conclusion
 The detection of hate speech in widely spoken languages like Hindi is increasingly important in today's digital era. Our model employs a rule-based approach to identify lexical patterns, allowing us to detect and quantify hate speech with reasonable precision. A key component of our algorithm is the analysis of subjectivity, which significantly enhances the accuracy of hate speech detection. Additionally, we categorize the detected hate speech to provide a more detailed understanding of the content, which helps prioritize our actions if needed.
 
 

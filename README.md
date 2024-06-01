@@ -35,7 +35,7 @@ Developing an effective system for hate speech detection and categorization in H
 - Contextual Understanding: By including synonyms, the model gains a better understanding of the context in which certain words are used, improving the accuracy of hate speech detection.
 - Adaptive Lexicon: The lexicon becomes adaptive and dynamic, capable of evolving as new synonyms and expressions of hate speech emerge over time.
 
-#### Theme-Based Nouns
+### Theme-Based Nouns
 To accurately detect hate speech, it is essential to identify and analyze not only verbs and adjectives but also the nouns that often appear in hateful contexts. This step involves a detailed examination of noun phrases (NPs) within the corpus to pinpoint those frequently used in hateful tweets. By doing so, we can create a targeted list of nouns that enhance the precision of our hate speech detection model.
 
 ## Final Testing

@@ -1,5 +1,5 @@
 #  Classifying Social Media Texts into Multiple Hate-Based Categories for Indian languages 
-Team_6_NLP
+Team_6_NLP Blog Link: https://dev.to/batul02/classifying-social-media-texts-into-multiple-hate-based-categories-for-indian-languages-1me9
 
 
 ## Problem Statement 
